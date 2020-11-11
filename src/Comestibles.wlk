@@ -7,6 +7,8 @@ class Comida {
 
 	method calorias() = calorias
 
+	method esPesado() = calorias > 500
+
 }
 
 class BandejaDeComida {
