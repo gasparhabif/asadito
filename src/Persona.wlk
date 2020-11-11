@@ -58,7 +58,7 @@ object facu inherits Persona(posicion = game.at(0, 0), criterioParaPasar = sordo
 
 }
 
-object moni inherits Persona(posicion = game.at(1, 1), criterioParaPasar = pasaTuti, elementosCercanos = [ "vinagre", "mayonesa" ], criterioParaComer = alternado) {
+object moni inherits Persona(posicion = game.at(1, 1), criterioParaPasar = pasaTuti, elementosCercanos = [ "vinagre", "mayonesa" ], criterioParaComer = new Alternado()) {
 
 	method sentadaEnCabecera() = self.posicion() == game.at(1, 1)
 

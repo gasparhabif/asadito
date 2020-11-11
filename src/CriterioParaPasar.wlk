@@ -39,7 +39,7 @@ object charlatan inherits CriterioParaPasar {
 // y finalmente están las personas que le pasan el bendito elemento al otro comensal
 object cumplidor inherits CriterioParaPasar {
 
-	override method queLePasa(quienLoPide, quienLoTiene, elemento) = quienLoTiene.elementosCercanos().filter({ cosa => cosa == elemento })
+	override method queLePasa(quienLoPide, quienLoTiene, elemento) = [ elemento ]
 
 }
 

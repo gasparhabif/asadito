@@ -22,7 +22,7 @@ object dietetico inherits CriterioParaComer {
 }
 
 // alternado: acepta y rechaza alternativamente cada comida
-object alternado inherits CriterioParaComer {
+class Alternado inherits CriterioParaComer {
 
 	var property aceptoAnterior = false
 
